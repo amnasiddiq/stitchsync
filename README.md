@@ -17,7 +17,8 @@ The homepage now centers multi-brand fashion discovery, with ready-to-wear and u
 ## Implemented demo
 
 - Registration, login, logout, and session handling for Customer, Brand/Supplier, Tailor, Delivery Partner, and Admin roles.
-- Role-specific dashboards with create, read, update, and delete operations for each role's records.
+- A customer profile with personal details, saved measurements, recent orders, and previous-order history.
+- Role-specific operational dashboards for suppliers, tailors, delivery partners, and administrators, with create, read, update, and delete operations.
 - Responsive marketplace, Karachi studio search, area and specialty filters, price and rating sorting.
 - Studio overview, illustrative portfolio, explicitly labeled sample reviews.
 - Saved studios with browser persistence.
