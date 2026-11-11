@@ -16,6 +16,8 @@ The homepage now centers multi-brand fashion discovery, with ready-to-wear and u
 
 ## Implemented demo
 
+- Registration, login, logout, and session handling for Customer, Brand/Supplier, Tailor, Delivery Partner, and Admin roles.
+- Role-specific dashboards with create, read, update, and delete operations for each role's records.
 - Responsive marketplace, Karachi studio search, area and specialty filters, price and rating sorting.
 - Studio overview, illustrative portfolio, explicitly labeled sample reviews.
 - Saved studios with browser persistence.
@@ -26,7 +28,7 @@ The homepage now centers multi-brand fashion discovery, with ready-to-wear and u
 
 ## Important boundaries
 
-This is a functional frontend prototype, not a production multi-user system. Browser localStorage stores demo records. Role selection provides presentation previews only, not authorization. There is no secure authentication, shared database, actual partner onboarding, live booking transmission or verified customer review system. Do not enter sensitive body measurements, addresses or private photos.
+This is a functional frontend prototype, not a production multi-user system. Browser localStorage stores accounts and demo records; passwords are one-way hashed with Web Crypto before local storage and the active session is kept in sessionStorage. This does not provide secure server-side authentication, shared records, administrator-controlled role assignment, actual partner onboarding, live booking transmission, or a verified review system. Do not use a real password or enter sensitive measurements, addresses, or private photos.
 
 Supabase credentials were not provided. Secure authentication, PostgreSQL persistence, RLS policies, protected uploads and real role assignment must be connected before real users can use this system. Sample studios, prices, ratings and reviews are fictional. Photos are illustrative Unsplash images stored locally; they are not real studio portfolios.
 
