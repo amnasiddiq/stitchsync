@@ -29,7 +29,7 @@ The homepage now centers multi-brand fashion discovery, with ready-to-wear and u
 
 ## Important boundaries
 
-This is a functional frontend prototype, not a production multi-user system. Browser localStorage stores accounts and demo records; passwords are one-way hashed with Web Crypto before local storage and the active session is kept in sessionStorage. This does not provide secure server-side authentication, shared records, administrator-controlled role assignment, actual partner onboarding, live booking transmission, or a verified review system. Do not use a real password or enter sensitive measurements, addresses, or private photos.
+The application now uses hosting-platform authentication and a shared D1 database for profiles and role-owned CRUD records. Public registration supports Customer, Brand/Supplier, Tailor, and Delivery Partner accounts. Administrator self-registration is rejected by the server; an administrator profile must be provisioned by the system owner. Product images and marketplace partner data remain demonstration content.
 
 Supabase credentials were not provided. Secure authentication, PostgreSQL persistence, RLS policies, protected uploads and real role assignment must be connected before real users can use this system. Sample studios, prices, ratings and reviews are fictional. Photos are illustrative Unsplash images stored locally; they are not real studio portfolios.
 
