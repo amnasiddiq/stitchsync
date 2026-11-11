@@ -40,3 +40,10 @@ Announcement / brand header / hero / three value propositions + service area / m
 
 ## Verification boundary
 Production compilation and TypeScript checks are required. Browser QA requires the managed browser capability; if unavailable, visual layout, keyboard dialog focus and interactive persistence remain unverified. Modals implement Escape, close controls, focus trapping and focus restoration; browser accessibility verification is still required.
+
+## Main-idea alignment revision
+The reattached one-page revision has the same text as the original revision. The first implementation overemphasized tailoring. Shop is now the default page, with Brands & designers as a primary destination. Six fictional sample styles across three fictional labels demonstrate the distinction between ready-to-wear and unstitched. Product images are illustrative fashion references, not exact garment representations.
+
+Unstitched detail → finishing preferences → associated studio selection → booking notes is implemented. Ready-to-wear details show a size preview and an explicitly unavailable future checkout. This is concept alignment through the earlier booking cutoff, not completion of the full revised commerce/AI scope. No new backend or payment functionality is claimed.
+
+Verification: Next.js production compilation and TypeScript checks passed. Managed browser QA remains unavailable because cua_repl.js is not present and no equivalent tool is exposed.

@@ -10,6 +10,10 @@ A responsive Next.js 15 / React 19 / TypeScript fashion and associated-tailor ma
 
 `npm run build` creates a static export in `out/`. Deployment copies it to `dist/`.
 
+## Concept alignment update
+
+The homepage now centers multi-brand fashion discovery, with ready-to-wear and unstitched collection filters, brand/designer browsing, product details, size previews and lace/tassel/embellishment preference previews. Only eligible unstitched products continue to associated stitching; selected outfit details carry into the booking form. Ready-to-wear checkout remains clearly deferred. Sample labels are fictional and photos illustrative. This corrects the earlier tailor-first presentation.
+
 ## Implemented demo
 
 - Responsive marketplace, Karachi studio search, area and specialty filters, price and rating sorting.
@@ -18,7 +22,7 @@ A responsive Next.js 15 / React 19 / TypeScript fashion and associated-tailor ma
 - Local demo profiles for customer, tailor, supplier and admin dashboard previews.
 - Required-field booking form with service, preferred date, written preferences and demo consent.
 - Persistent requests, cancellation and tailor-role demo confirmation.
-- Discovery page reflecting multi-brand ready-to-wear and unstitched positioning; catalog labeled as a later milestone.
+- Shopping homepage and functional sample product/brand browsing; purchasing and stock management remain later milestones.
 
 ## Important boundaries
 
