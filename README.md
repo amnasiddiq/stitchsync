@@ -10,6 +10,16 @@ A responsive Next.js 15 / React 19 / TypeScript fashion and associated-tailor ma
 
 `npm run build` creates a static export in `out/`. Deployment copies it to `dist/`.
 
+## Full local development
+
+```bash
+npm install
+npm run db:local
+npm run dev:full
+```
+
+Open `http://127.0.0.1:8787`. The `dev:full` command serves the exported frontend, Worker API, and persistent local D1 database together. Re-run `npm run db:local` whenever a new migration is added.
+
 ## Concept alignment update
 
 The homepage now centers multi-brand fashion discovery, with ready-to-wear and unstitched collection filters, brand/designer browsing, product details, size previews and lace/tassel/embellishment preference previews. Only eligible unstitched products continue to associated stitching; selected outfit details carry into the booking form. Ready-to-wear checkout remains clearly deferred. Sample labels are fictional and photos illustrative. This corrects the earlier tailor-first presentation.
